@@ -1,0 +1,348 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+a.hover{
+    color: white;
+}
+body{
+    background-image:url("Cover.jpg") ;
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+.menu-bar{ 
+    background-color: rgb(5, 10, 32);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex; 
+    flex-wrap: wrap;
+    list-style:  none;
+    color: rgb(255, 255, 255);
+}
+.menu-bar ul li{
+    text-align: center;
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.active, .menu-bar ul li:hover{
+    background-color: rgb(11, 21, 63);
+    border-radius: 3px;
+}
+
+.submenu1{
+display: none;
+}
+.menu-bar ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background:rgb(11, 21, 63) ;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .submenu1 ul{
+    display: block;
+    margin:10px;
+}
+.menu-bar ul li:hover .submenu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(20, 41, 122) ;
+    background:  transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .submenu1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .submenu1 ul li a:hover{
+    color: rgb(255, 255, 255) ;
+}
+
+h1{
+    background-color :  rgb(5, 10, 32,0.5);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-shadow: 0px 2px gray;
+}
+h1{font-size: 30pt}
+
+
+h1,h4,div{text-align: center;}
+
+h4{font-size: 20px;}
+
+li{font-style: italic;
+text-align: center;
+list-style:  none;
+font-size: 20px;}
+
+.head{font-weight:bold;
+    background-color : rgb(221, 221, 221);
+    text-align: center;}
+
+#imgd{  width: 80%;}
+
+ 
+
+
+.mainpic{ 
+ margin: auto;
+    width : 40%;
+}
+
+.main{margin : auto;
+    background-color : rgb(197, 197, 197,0.25);
+    width : 100%;
+   
+}
+.main1{
+    display: inline-block;
+    text-align: center;
+    
+}
+.mainpic1{
+    
+    display: inline-block   ;
+    flex-wrap: wrap;
+    border : 2px dotted orange;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width:30%
+  
+}
+.mainpic2{
+    
+    display: inline-block   ;
+    flex-wrap: wrap;
+    border : 2px dotted orange;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width:30%;
+    font-size: 30px;;
+    
+  
+}
+img{width : 100%;}
+
+.textmain{background-color : rgb(150, 150, 150,0.5);
+    margin-top: 20px;
+    font-size: 20pt;
+    text-decoration: underline}
+
+.textmain1{
+    font-size: 15pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.textmain2{background-color :  rgb(150, 150, 150,0.5);
+    margin-top: 20px;
+    font-size: 20pt;
+    text-decoration: underline;
+}
+
+.grid-container{
+   
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+    grid-gap:10px;
+}
+
+.grid-container1{
+   
+    display: grid;
+    grid-template-columns: 50% auto ;
+    grid-gap:10px;
+}
+
+#top{
+    grid-column: 1/span 3;
+    background-color:  rgb(56, 56, 56,0.5);    
+    width : 100%;
+    height: 150px;  
+    margin-top: auto;
+    
+}
+#top2{
+    grid-column: 1/span 3;
+    background-color:  rgb(56, 56, 56,0.5);    
+    width : 100%;
+    height: 100px;  
+    margin-top: 10px;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+   
+    font-size : 40pt;
+    color: rgb(214, 214, 214);
+    
+}
+#tophead{
+	grid-column: 1/span 3;
+    background-color:  rgb(255, 255, 255,0.5);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#header{
+	grid-column: 1/span 1;
+    background-color:  rgb(255, 255, 255,0.25);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#header2{
+	grid-column: 2/span 1;
+    background-color:  rgb(255, 255, 255,0.25);
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#header3{
+	grid-column:3/span 1;
+    background-color:  rgb(255, 255, 255,0.25);
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#main1{
+	grid-column: 2/span 2;
+    background-color:   rgb(5, 10, 32,0.5);
+    
+}
+
+#main2{
+	grid-column: 1/span 2;
+	background-color:   rgb(182, 182, 182,0.5);
+}
+#main3{
+	grid-column: 3/span 1;
+	background-color:  rgb(255, 255, 255,0.25);
+}
+
+#right{
+    margin-top: 5px;
+	grid-column: 2/span 1;
+	background-color:   rgb(182, 182, 182,0.25);
+}
+
+#left{
+    margin-top: 5px;
+	grid-column: 1/span 1;
+	background-color:  rgb(182, 182, 182,0.25);
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .menu-bar ul {
+        display: block;
+        text-align: center;
+        flex-wrap: wrap;
+        list-style:  none;
+        color: rgb(255, 255, 255);
+    }
+    .menu-bar ul li{margin :0 auto;}
+
+    .grid-container{
+   
+        display: grid;
+        grid-template-columns: 20% auto ;
+        grid-gap:10px;
+    }
+    
+    .grid-container1{
+       
+        display: grid;
+        grid-template-columns:  auto ;
+        grid-gap:10px;
+    }
+    
+    #top{
+        grid-column: 1/span 3;
+        background-color:  rgb(56, 56, 56,0.5);    
+        width : 100%;
+        height: 150px;  
+        margin-top: auto;
+    }
+  
+    #tophead{
+        grid-column: 1/span 3;
+        background-color:  rgb(255, 255, 255,0.5);
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #header{
+        grid-column: 1/span 3;
+        background-color:  rgb(255, 255, 255,0.25);
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    #header2{
+        grid-column: 1/span 3;
+        background-color:  rgb(255, 255, 255,0.25);
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    #header3{
+        grid-column:1/span 3;
+        background-color:  rgb(255, 255, 255,0.25);
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #main1{
+        grid-column: 1/span 3;
+        background-color:  rgb(182, 182, 182,0.5);
+    }
+    
+    #main2{
+        grid-column: 1/span 3;
+        background-color:   rgb(182, 182, 182,0.5);
+    }
+    #main3{
+        grid-column: 1/span 3;
+        background-color:  rgb(255, 255, 255,0.25);
+    }
+    
+    #right{
+        margin-top: 5px;
+        grid-column: 1/span 3;
+        background-color:   rgb(182, 182, 182,0.25);
+    }
+    
+    #left{
+        margin-top: 5px;
+        grid-column: 1/span 3;
+        background-color:  rgb(182, 182, 182,0.25);
+    }
+    
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+

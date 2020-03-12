@@ -1,0 +1,77 @@
+img{
+    width : 100%
+   
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: red;
+}
+h1{
+    background-color: orange;
+    text-align: center;
+    font-size: 50px;
+    color : white;
+}
+
+.container{
+    border: 2px dotted orange;  
+    display: flex;
+    flex-wrap: wrap;
+    background-color: sandybrown;
+justify-content: space-between;
+font-size: 20px
+}
+.edit{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+width : 40%;
+}
+.pic{
+    margin: 10px;
+    width : 40%;
+}
+h2{
+    margin-left: 50px;
+    font-size: 40px;
+}
+.mainpic{
+    
+    display: inline-block   ;
+    flex-wrap: wrap;
+    border : 2px dotted orange;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width:30%
+  
+}
+.main{
+    display: inline-block;
+    text-align: center;
+    
+}
+.con{background-color: rgb(224, 178, 137);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.one{
+    margin: auto;
+}
+.two{
+    font-size: 20px;
+}
+.source{
+    text-align: center;
+    font-size: 30px;
+    background-color: wheat;
+
+}
